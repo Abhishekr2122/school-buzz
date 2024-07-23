@@ -1,0 +1,36 @@
+.navbar {
+  /* margin: 0px; */
+
+  /* border: 1px solid blue; */
+}
+
+.navbar-content-container {
+  /* border: 1px solid yellow; */
+  padding: 4px 12px;
+  display: flex;
+  gap: 35px;
+  border-radius: 2px;
+}
+
+.navbar-item {
+  border-style: none;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid rgb(255, 189, 189);
+}
+
+.navbar-item-link {
+  /* border: 1px solid red; */
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  transition-duration: 0.5s;
+}
+
+.navbar-item-link:hover {
+  color: #fe492c;
+  transition-duration: 0.5s;
+}

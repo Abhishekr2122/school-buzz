@@ -1,0 +1,12 @@
+.header {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid blue; */
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  background-color: #e6f6fd;
+  /* background-color: #f6f6f6; */
+
+  justify-content: space-between;
+}

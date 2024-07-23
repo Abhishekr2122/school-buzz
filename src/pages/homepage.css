@@ -1,3 +1,34 @@
-.homepage {
-  border: 1px solid red;
+.home-page {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 97%;
+  height: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+
+  background-color: #fe492c;
+}
+
+.home-page-header {
+  /* border: 1px solid blue; */
+  padding: 20px;
+  color: white;
+}
+
+.home-page-header-text {
+  /* border: 1px solid green; */
+  width: fit-content;
+  font-size: 27px;
+  font-weight: 600;
+  padding: 4px;
+}
+
+.home-page-para {
+  text-align: center;
+  /* border: 1px solid black; */
+  padding: 30px;
+  font-size: 25px;
+  color: white;
 }
