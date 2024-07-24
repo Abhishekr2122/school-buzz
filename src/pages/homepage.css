@@ -2,19 +2,22 @@
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  width: 97%;
-  height: auto;
-  margin-top: 50px;
-  border-radius: 4px;
+  gap: 10px;
+  width: 90%;
+  height: calc(100vh - 150px);
+  margin-top: 70px;
+  border-radius: 6px;
 
   background-color: #fe492c;
 }
 
 .home-page-header {
   /* border: 1px solid blue; */
-  padding: 20px;
+  padding: 20px 45px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .home-page-header-text {

@@ -1,4 +1,6 @@
 import "./bannerslider.css";
+import { FaBackward } from "react-icons/fa6";
+import { FaForward } from "react-icons/fa6";
 
 // import Carousel from "react-bootstrap/Carousel";
 
@@ -32,7 +34,19 @@ import "./bannerslider.css";
 export default function BannerSlider() {
   return (
     <div className="banner-slider">
-      <div className="banner-slider-container"></div>
+      <div className="banner-slider-container">
+        <div className="backward">
+          <FaBackward className="backward-item" />
+        </div>
+        <div className="slider">
+          <div className="slider-item"></div>
+          <div className="slider-item"></div>
+          <div className="slider-item"></div>
+        </div>
+        <div className="forward">
+          <FaForward className="forward-item" />
+        </div>
+      </div>
     </div>
   );
 }
