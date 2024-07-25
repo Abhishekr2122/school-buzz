@@ -32,6 +32,13 @@
 }
 
 .section-4 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-5 {
+  border: 1px solid yellow;
 }

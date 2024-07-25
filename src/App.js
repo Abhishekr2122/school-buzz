@@ -5,6 +5,7 @@ import Menubar from "./components/Menubar";
 import Homepage from "./pages/Homepage";
 import Aboutus from "./pages/Aboutus";
 import Academics from "./pages/Academics";
+import Admissions from "./pages/Admissions";
 
 function App() {
   const [isMenuBtnClicked, setIsMenuBtnClicked] = useState(false);
@@ -23,7 +24,9 @@ function App() {
         <Academics />
       </section>
 
-      <section className="section-4"></section>
+      <section className="section-4">
+        <Admissions />
+      </section>
       <Menubar isMenuBtnClicked={isMenuBtnClicked} />
     </div>
   );

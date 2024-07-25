@@ -1,0 +1,20 @@
+.admissions {
+  width: 90%;
+}
+
+.admissions-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.admissions-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 765px) {
+  .admissions {
+    width: 100%;
+  }
+}

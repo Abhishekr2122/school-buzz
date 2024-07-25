@@ -11,7 +11,7 @@ export default function Academics() {
               <strong style={{ color: "#fe492c" }}>Curriculum:</strong>
               <ul>
                 <li>
-                  <strong>Primary (Grades 1-5):</strong>Englis, Mathametics,
+                  <strong>Primary (Grades 1-5):</strong>English, Mathametics,
                   Science, Social Studies, Art, Physical Education
                 </li>
                 <li>
