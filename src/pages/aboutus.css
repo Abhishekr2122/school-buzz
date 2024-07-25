@@ -1,0 +1,80 @@
+.aboutus-page {
+  /* border: 1px solid red; */
+  height: auto;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.aboutus-page-heading {
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-size: 2.5vw;
+  text-decoration: underline;
+}
+
+.aboutus-page-card-container {
+  width: 90%;
+
+  /* border: 1px solid red; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  justify-content: center;
+}
+
+.aboutus-page-card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-radius: 4px;
+  /* border: 1px solid blue; */
+  height: fit-content;
+  width: 300px;
+  background-color: rgb(243, 252, 249);
+}
+
+.aboutus-card-text {
+  margin: 0px;
+  /* border: 1px solid green; */
+  padding: 0px;
+  height: auto;
+}
+
+@media screen and (max-width: 1290px) {
+  .aboutus-page-card-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .aboutus-page-card-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .aboutus-page-card-container {
+    grid-template-columns: auto;
+  }
+
+  .aboutus-page-card {
+    width: 100%;
+  }
+
+  .aboutus-page-heading {
+    font-size: 4.5vw;
+  }
+}

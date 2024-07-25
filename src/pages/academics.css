@@ -1,0 +1,23 @@
+.academics {
+  /* border: 1px solid blue; */
+
+  width: 90%;
+}
+
+.academics-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.academics-header {
+  text-align: center;
+  margin: 0px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 765px) {
+  .academics {
+    width: 100%;
+  }
+}

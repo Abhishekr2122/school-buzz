@@ -1,7 +1,5 @@
 .navbar {
-  /* margin: 0px; */
-
-  /* border: 1px solid blue; */
+  width: auto;
 }
 
 .navbar-content-container {
@@ -33,4 +31,14 @@
 .navbar-item-link:hover {
   color: #fe492c;
   transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1190px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar-content-container {
+    display: none;
+  }
 }
